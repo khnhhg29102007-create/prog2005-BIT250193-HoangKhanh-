@@ -1,0 +1,11 @@
+names = []
+
+for i in range(5):
+    name = input(f"Nhập tên {i+1}: ")
+    names.append(name)
+
+print("Danh sách ban đầu:", names)
+
+del names[1]
+
+print("Danh sách sau khi xóa:", names)
